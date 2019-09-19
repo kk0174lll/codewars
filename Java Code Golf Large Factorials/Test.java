@@ -1,0 +1,1 @@
+import java.math.*;class C{static String f(int n){return n<1?"1":new BigInteger(n+"").multiply(new BigInteger(f(n-1)))+"";}}
